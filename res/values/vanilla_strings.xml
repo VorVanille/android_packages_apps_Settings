@@ -56,5 +56,9 @@
 
     <!-- Vanilla Tweaks -->
     <string name="vanilla_tweaks_title">Vanilla Tweaks</string>
-    <string name="vanilla_tweaks_summary">Make Vanilla less vanilla</string>
+    <string name="vanilla_tweaks_summary">Make Vanilla Less Vanilla</string>
+
+    <!-- Navbar Tweaks -->
+    <string name="vanilla_tweaks_navbar_title">Navigation Bar Tweaks</string>
+	
 </resources>
