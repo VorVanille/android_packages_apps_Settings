@@ -25,6 +25,10 @@
                     android:targetClass="@string/additional_system_update_menu" />
         </Preference>
 
+        <!-- Vanilla Header -->
+        <PreferenceScreen android:key="vanilla_header"
+                android:layout="@layout/vanilla_about_header" />
+
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"
                 android:title="@string/device_status"
