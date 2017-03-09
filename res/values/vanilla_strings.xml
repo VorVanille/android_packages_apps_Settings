@@ -15,6 +15,17 @@
     <string name="vanilla_info">Vanilla Info</string>
 	<string name="vanilla_info_summary">ROM info and credits</string>
 	<string name="rom_info">ROM Related Info</string>
+	<string name="vanilla_community_title">Community</string>
+	<string name="vanilla_changelog_title">Changelog</string>
+	<string name="vanilla_changelog_summary">Find out whats new!</string>
+	<string name="vanilla_changelog_url">https://github.com/VorVanille/Vanilla_Changelog/blob/8.0.0/Changelog.md</string>
+	<string name="vanilla_telegram_title">Telegram lounge</string>
+	<string name="vanilla_telegram_summary">Chat with the devs and community!</string>
+	<string name="vanilla_telegram_url">https://t.me/joinchat/Cu3f6EI7sCb-epBvScrOdQ</string>
+	<string name="vanilla_gplus_title">Google Plus community</string>
+	<string name="vanilla_gplus_summary">Join our Google Plus for updates!</string>
+	<string name="vanilla_gplus_url">https://plus.google.com/communities/112741693335858889872</string>
+    <string name="vanilla_info_browser_error">No app found! Make sure you have a Browser installed.</string>
 	<string name="vanilla_credits">Credits</string>
 	<string name="vanilla_developer">Developer of Vanilla</string>
 	<string name="vanilla_developer_name">Skye aka WelcomeToTheSkye</string>

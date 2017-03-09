@@ -44,7 +44,41 @@
                 android:selectable="false"
                 android:title="@string/vendor_version"
                 android:summary="@string/vendor_version_default" />
-		
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="vanilla_community"
+        android:title="@string/vanilla_community_title">
+
+        <!-- Changelog -->
+        <Preference
+                android:key="vanilla_changelog"
+                android:title="@string/vanilla_changelog_title"
+                android:summary="@string/vanilla_changelog_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/vanilla_changelog_url" />
+        </Preference>
+
+        <!-- Telegram -->
+        <Preference
+                android:key="vanilla_telegram"
+                android:title="@string/vanilla_telegram_title"
+                android:summary="@string/vanilla_telegram_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/vanilla_telegram_url" />
+        </Preference>
+							
+        <!-- G+ -->
+        <Preference
+                android:key="vanilla_gplus"
+                android:title="@string/vanilla_gplus_title"
+                android:summary="@string/vanilla_gplus_summary">
+                <intent
+                    android:action="android.intent.action.VIEW"
+                    android:data="@string/vanilla_gplus_url" />
+        </Preference>
     </PreferenceCategory>
 	
     <!-- Credits -->
