@@ -39,4 +39,7 @@
     <string name="device_name">Device name</string>
     <!-- Phone info shortcut -->
     <string name="device_info_title">Phone info</string>
+	
+    <!-- Display Tweaks -->
+    <string name="custom_density_tweak">Advanced custom density</string>
 </resources>
