@@ -16,10 +16,9 @@ android:layout_height="wrap_content"
 android:gravity="center">
 			  
        <ImageView
-            android:layout_width="600dp"
-            android:layout_height="100dp"
+            android:layout_width="800dp"
+            android:layout_height="200dp"
             android:src="@drawable/vanilla"
-            android:tint="?android:attr/colorAccent" 
             android:scaleType="centerInside" />
 
 </LinearLayout>
