@@ -18,7 +18,11 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/vanilla_info">
-     
+
+    <!-- Vanilla Header -->
+    <PreferenceScreen android:key="vanilla_header"
+        android:layout="@layout/vanilla_about_header" />
+
     <PreferenceCategory
         android:key="rom_info"
         android:title="@string/rom_info">

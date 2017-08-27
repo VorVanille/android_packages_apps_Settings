@@ -18,10 +18,9 @@ import android.util.Log;
 import android.widget.Toast;
 
 import com.android.internal.logging.MetricsLogger;
-import com.android.internal.logging.MetricsProto.MetricsEvent;
+import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.search.BaseSearchIndexProvider;
-import com.android.settings.search.Index;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.DeviceInfoUtils;
 import com.android.settingslib.RestrictedLockUtils;
@@ -46,11 +45,10 @@ public class VanillaInfo extends SettingsPreferenceFragment implements Indexable
     private static final String KEY_ROM_VERSION = "rom_version";
     private static final String KEY_VENDOR_VERSION = "vendor_version";
 
-
     @Override
-    protected int getMetricsCategory() {
-return MetricsEvent.APPLICATION;
-	}
+    public int getMetricsCategory() {
+        return MetricsEvent.DEVICEINFO;
+    }
 	
 	 @Override
     public void onCreate(Bundle icicle) {
@@ -101,6 +99,25 @@ return MetricsEvent.APPLICATION;
             if (pref != null) {
                 getPreferenceScreen().removePreference(pref);
             }
+        }
+    }
+
+    private void setStringSummary(String preference, String value) {
+        try {
+            findPreference(preference).setSummary(value);
+        } catch (RuntimeException e) {
+            findPreference(preference).setSummary(
+                getResources().getString(R.string.device_info_default));
+        }
+    }
+
+    private void setValueSummary(String preference, String property) {
+        try {
+            findPreference(preference).setSummary(
+                    SystemProperties.get(property,
+                            getResources().getString(R.string.device_info_default)));
+        } catch (RuntimeException e) {
+            // No recovery
         }
     }
 

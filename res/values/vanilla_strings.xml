@@ -13,7 +13,6 @@
 <resources>
     <!--Vanilla Info-->
     <string name="vanilla_info">Vanilla Info</string>
-	<string name="vanilla_info">Vanilla Info</string>
 	<string name="vanilla_info_summary">ROM info and credits</string>
 	<string name="rom_info">Rom Related Info</string>
 	<string name="vanilla_credits">Credits</string>
@@ -23,4 +22,21 @@
 	<string name="vanilla_shamu_name">Mike Redd</string>
 	<string name="vanilla_rom_homie">The rom homie</string>
     <string name="vanilla_rom_homie_name">Nathan Chancellor aka The Flash</string>
+
+    <!-- Device Info Settings -->
+    <!-- ROM version -->
+    <string name="rom_version">Vanilla version</string>
+    <string name="rom_version_default">Unknown</string>
+    <!-- Vendor version -->
+    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version_default">Unknown</string>
+    <!-- Model Name -->
+    <string name="model_name">Model name</string>
+    <!-- Phone info shortcut -->
+    <!-- Device model -->
+    <string name="device_model">Device model</string>
+    <!-- Device name -->
+    <string name="device_name">Device name</string>
+    <!-- Phone info shortcut -->
+    <string name="device_info_title">Phone info</string>
 </resources>
