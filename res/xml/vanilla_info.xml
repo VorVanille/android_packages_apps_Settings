@@ -34,9 +34,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/rom_version"
-                android:summary="@string/rom_version_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
+                android:summary="@string/rom_version_default" />
 
         <!-- Vendor Version -->
         <com.android.settings.DividerPreference
@@ -45,9 +43,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/vendor_version"
-                android:summary="@string/vendor_version_default"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true" />
+                android:summary="@string/vendor_version_default" />
 		
     </PreferenceCategory>
 	
@@ -62,9 +58,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/vanilla_developer"
-                android:summary="@string/vanilla_developer_name"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
+                android:summary="@string/vanilla_developer_name" />
 
         <com.android.settings.DividerPreference
                 android:key="vanilla_shamu"
@@ -72,9 +66,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/vanilla_shamu"
-                android:summary="@string/vanilla_shamu_name"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
+                android:summary="@string/vanilla_shamu_name" />
 
         <com.android.settings.DividerPreference
                 android:key="vanilla_rom_homie"
@@ -82,9 +74,7 @@
                 android:shouldDisableView="false"
                 android:selectable="false"
                 android:title="@string/vanilla_rom_homie"
-                android:summary="@string/vanilla_rom_homie_name"
-                settings:allowDividerAbove="true"
-                settings:allowDividerBelow="true"/>
+                android:summary="@string/vanilla_rom_homie_name" />
 
     </PreferenceCategory>
 </PreferenceScreen>
