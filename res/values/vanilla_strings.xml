@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2017 Vanilla
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!--Vanilla Info-->
+    <string name="vanilla_info">Vanilla Info</string>
+	<string name="vanilla_info">Vanilla Info</string>
+	<string name="vanilla_info_summary">ROM info and credits</string>
+	<string name="rom_info">Rom Related Info</string>
+	<string name="vanilla_credits">Credits</string>
+	<string name="vanilla_developer">Developer of Vanilla</string>
+	<string name="vanilla_developer_name">Skye aka WelcomeToTheSkye</string>
+    <string name="vanilla_shamu">Shamu Maintainer</string>
+	<string name="vanilla_shamu_name">Mike Redd</string>
+	<string name="vanilla_rom_homie">The rom homie</string>
+    <string name="vanilla_rom_homie_name">Nathan Chancellor aka The Flash</string>
+</resources>
