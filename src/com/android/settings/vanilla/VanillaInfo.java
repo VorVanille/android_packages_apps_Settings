@@ -66,7 +66,7 @@ public class VanillaInfo extends SettingsPreferenceFragment implements Indexable
         } else {
             getPreferenceScreen().removePreference(findPreference(KEY_VENDOR_VERSION));
         }
-        setValueSummary(KEY_ROM_VERSION, "ro.rom.version");
+        setValueSummary(KEY_ROM_VERSION, "ro.vanilla.version");
         findPreference(KEY_ROM_VERSION).setEnabled(true);
 	}
 
