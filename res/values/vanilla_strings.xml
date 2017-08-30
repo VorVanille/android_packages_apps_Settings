@@ -14,13 +14,13 @@
     <!--Vanilla Info-->
     <string name="vanilla_info">Vanilla Info</string>
 	<string name="vanilla_info_summary">ROM info and credits</string>
-	<string name="rom_info">Rom Related Info</string>
+	<string name="rom_info">ROM Related Info</string>
 	<string name="vanilla_credits">Credits</string>
 	<string name="vanilla_developer">Developer of Vanilla</string>
 	<string name="vanilla_developer_name">Skye aka WelcomeToTheSkye</string>
     <string name="vanilla_shamu">Shamu Maintainer</string>
-	<string name="vanilla_shamu_name">Mike Redd</string>
-	<string name="vanilla_rom_homie">The rom homie</string>
+	<string name="vanilla_shamu_name">Mike Redd aka Mikeredd</string>
+	<string name="vanilla_rom_homie">The ROM homie</string>
     <string name="vanilla_rom_homie_name">Nathan Chancellor aka The Flash</string>
 
     <!-- Device Info Settings -->
