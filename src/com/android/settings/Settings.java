@@ -178,4 +178,7 @@ public class Settings extends SettingsActivity {
     public static class SystemDashboardActivity extends SettingsActivity {}
     public static class SupportDashboardActivity extends SettingsActivity {}
 
+    // Vanilla Additions
+    public static class VanillaTweaksActivity extends SettingsActivity { /* empty */ }
+
 }

@@ -53,4 +53,8 @@
 	
     <!-- Display Tweaks -->
     <string name="custom_density_tweak">Advanced custom density</string>
+
+    <!-- Vanilla Tweaks -->
+    <string name="vanilla_tweaks_title">Vanilla Tweaks</string>
+    <string name="vanilla_tweaks_summary">Make Vanilla less vanilla</string>
 </resources>

@@ -3013,6 +3013,25 @@
                        android:resource="@string/system_dashboard_summary"/>
         </activity>
 
+        <!-- Vanilla Tweaks -->
+        <activity android:name="Settings$VanillaTweaksActivity"
+                  android:label="@string/vanilla_tweaks_title"
+                  android:icon="@drawable/ic_settings_vanilla">
+            <intent-filter android:priority="-3">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <intent-filter android:priority="5">
+                <action android:name="com.android.settings.VANILLA_TWEAKS" />
+                <action android:name="android.settings.VANILLA_TWEAKS" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.homepage" />
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.vanilla.VanillaTweaks" />
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/vanilla_tweaks_summary"/>
+        </activity>
+
         <activity android:name=".Settings$SupportDashboardActivity"
                   android:label="@string/page_tab_title_support"
                   android:icon="@drawable/ic_help"
