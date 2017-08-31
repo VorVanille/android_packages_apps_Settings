@@ -22,12 +22,12 @@
                 android:layout="@layout/vanilla_about_header" />
 
         <!-- Vanilla Info -->
-        <PreferenceScreen 
+        <Preference 
                 android:key="vanilla_info"
                 android:title="@string/vanilla_info"
                 android:summary="@string/vanilla_info_summary"
                 android:fragment="com.android.settings.vanilla.VanillaInfo">
-        </PreferenceScreen>
+        </Preference>
 
         <!-- Device status - launches activity -->
         <Preference android:key="status_info"

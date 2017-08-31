@@ -31,15 +31,15 @@
 	<string name="vanilla_developer_name">Skye aka WelcomeToTheSkye</string>
     <string name="vanilla_shamu">Shamu Maintainer</string>
 	<string name="vanilla_shamu_name">Mike Redd aka Mikeredd</string>
-	<string name="vanilla_rom_homie">The ROM homie</string>
+	<string name="vanilla_rom_homie">The ROM Homie</string>
     <string name="vanilla_rom_homie_name">Nathan Chancellor aka The Flash</string>
 
     <!-- Device Info Settings -->
     <!-- ROM version -->
-    <string name="rom_version">Vanilla version</string>
+    <string name="rom_version">Vanilla Version</string>
     <string name="rom_version_default">Unknown</string>
     <!-- Vendor version -->
-    <string name="vendor_version">Vendor version</string>
+    <string name="vendor_version">Vendor Version</string>
     <string name="vendor_version_default">Unknown</string>
     <!-- Model Name -->
     <string name="model_name">Model name</string>
